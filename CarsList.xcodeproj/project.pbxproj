@@ -3,23 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3073A5AEB457DF6172BE2AE5 /* Pods_CarsList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5203AE4D501C54A7C4843C77 /* Pods_CarsList.framework */; };
+		D0678E4F264289FA0008EAFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0678E4E264289FA0008EAFB /* GoogleService-Info.plist */; };
+		D0678E6426428D600008EAFB /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0678E6326428D600008EAFB /* Car.swift */; };
+		D0678E7726428D760008EAFB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0678E7626428D760008EAFB /* User.swift */; };
+		D0678E7D26428E180008EAFB /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0678E7C26428E180008EAFB /* AuthenticationViewController.swift */; };
+		D0678E8026428E430008EAFB /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0678E7F26428E430008EAFB /* ListTableViewController.swift */; };
+		D0678E8326428E670008EAFB /* AddEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0678E8226428E670008EAFB /* AddEditTableViewController.swift */; };
+		D0678E8826428F530008EAFB /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0678E8726428F530008EAFB /* CarCell.swift */; };
+		D0678E8C26428F8B0008EAFB /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0678E8B26428F8B0008EAFB /* PickerView.swift */; };
+		D0678E90264290130008EAFB /* UploadPhotoTapped.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0678E8F264290130008EAFB /* UploadPhotoTapped.swift */; };
+		D0678E95264290660008EAFB /* LoadImagesFromStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0678E94264290660008EAFB /* LoadImagesFromStorage.swift */; };
+		D0678E99264290B40008EAFB /* SaveChangesSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0678E98264290B40008EAFB /* SaveChangesSegue.swift */; };
+		D0678E9C264290EF0008EAFB /* SendEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0678E9B264290EF0008EAFB /* SendEmail.swift */; };
 		D07AD162263490DA004F832F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AD161263490DA004F832F /* AppDelegate.swift */; };
-		D07AD164263490DA004F832F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AD163263490DA004F832F /* SceneDelegate.swift */; };
-		D07AD166263490DA004F832F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AD165263490DA004F832F /* ViewController.swift */; };
 		D07AD169263490DA004F832F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D07AD167263490DA004F832F /* Main.storyboard */; };
 		D07AD16B263490E2004F832F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07AD16A263490E2004F832F /* Assets.xcassets */; };
 		D07AD16E263490E2004F832F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D07AD16C263490E2004F832F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21E87726607DF9410B488695 /* Pods-CarsList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarsList.release.xcconfig"; path = "Target Support Files/Pods-CarsList/Pods-CarsList.release.xcconfig"; sourceTree = "<group>"; };
+		5203AE4D501C54A7C4843C77 /* Pods_CarsList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarsList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F16903612E4EB1F52FB377 /* Pods-CarsList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarsList.debug.xcconfig"; path = "Target Support Files/Pods-CarsList/Pods-CarsList.debug.xcconfig"; sourceTree = "<group>"; };
+		D0678E4E264289FA0008EAFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D0678E6326428D600008EAFB /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		D0678E7626428D760008EAFB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D0678E7C26428E180008EAFB /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		D0678E7F26428E430008EAFB /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		D0678E8226428E670008EAFB /* AddEditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTableViewController.swift; sourceTree = "<group>"; };
+		D0678E8726428F530008EAFB /* CarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
+		D0678E8B26428F8B0008EAFB /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		D0678E8F264290130008EAFB /* UploadPhotoTapped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPhotoTapped.swift; sourceTree = "<group>"; };
+		D0678E94264290660008EAFB /* LoadImagesFromStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadImagesFromStorage.swift; sourceTree = "<group>"; };
+		D0678E98264290B40008EAFB /* SaveChangesSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveChangesSegue.swift; sourceTree = "<group>"; };
+		D0678E9B264290EF0008EAFB /* SendEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendEmail.swift; sourceTree = "<group>"; };
 		D07AD15E263490DA004F832F /* CarsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07AD161263490DA004F832F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D07AD163263490DA004F832F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D07AD165263490DA004F832F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D07AD168263490DA004F832F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D07AD16A263490E2004F832F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D07AD16D263490E2004F832F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,17 +55,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3073A5AEB457DF6172BE2AE5 /* Pods_CarsList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27D10E451D68D36ECFA9F0FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5203AE4D501C54A7C4843C77 /* Pods_CarsList.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29423FE8031A79A971768B6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4F16903612E4EB1F52FB377 /* Pods-CarsList.debug.xcconfig */,
+				21E87726607DF9410B488695 /* Pods-CarsList.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D0678E7926428D910008EAFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0678E6326428D600008EAFB /* Car.swift */,
+				D0678E7626428D760008EAFB /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0678E8526428E6F0008EAFB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0678E7C26428E180008EAFB /* AuthenticationViewController.swift */,
+				D0678E7F26428E430008EAFB /* ListTableViewController.swift */,
+				D0678E8226428E670008EAFB /* AddEditTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D0678E8E26428FA90008EAFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D07AD167263490DA004F832F /* Main.storyboard */,
+				D07AD16C263490E2004F832F /* LaunchScreen.storyboard */,
+				D0678E8726428F530008EAFB /* CarCell.swift */,
+				D0678E8B26428F8B0008EAFB /* PickerView.swift */,
+				D0678E8F264290130008EAFB /* UploadPhotoTapped.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0678E932642903E0008EAFB /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D0678E94264290660008EAFB /* LoadImagesFromStorage.swift */,
+				D0678E98264290B40008EAFB /* SaveChangesSegue.swift */,
+				D0678E9B264290EF0008EAFB /* SendEmail.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		D07AD155263490DA004F832F = {
 			isa = PBXGroup;
 			children = (
 				D07AD160263490DA004F832F /* CarsList */,
 				D07AD15F263490DA004F832F /* Products */,
+				29423FE8031A79A971768B6D /* Pods */,
+				27D10E451D68D36ECFA9F0FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +141,14 @@
 		D07AD160263490DA004F832F /* CarsList */ = {
 			isa = PBXGroup;
 			children = (
+				D0678E7926428D910008EAFB /* Model */,
+				D0678E8526428E6F0008EAFB /* Controllers */,
+				D0678E932642903E0008EAFB /* Managers */,
+				D0678E8E26428FA90008EAFB /* View */,
 				D07AD161263490DA004F832F /* AppDelegate.swift */,
-				D07AD163263490DA004F832F /* SceneDelegate.swift */,
-				D07AD165263490DA004F832F /* ViewController.swift */,
-				D07AD167263490DA004F832F /* Main.storyboard */,
 				D07AD16A263490E2004F832F /* Assets.xcassets */,
-				D07AD16C263490E2004F832F /* LaunchScreen.storyboard */,
 				D07AD16F263490E2004F832F /* Info.plist */,
+				D0678E4E264289FA0008EAFB /* GoogleService-Info.plist */,
 			);
 			path = CarsList;
 			sourceTree = "<group>";
@@ -74,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D07AD172263490E2004F832F /* Build configuration list for PBXNativeTarget "CarsList" */;
 			buildPhases = (
+				47D7B07F7316D8F0816A6BF0 /* [CP] Check Pods Manifest.lock */,
 				D07AD15A263490DA004F832F /* Sources */,
 				D07AD15B263490DA004F832F /* Frameworks */,
 				D07AD15C263490DA004F832F /* Resources */,
+				ED6381A4126BE186D38BE524 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D07AD16E263490E2004F832F /* LaunchScreen.storyboard in Resources */,
+				D0678E4F264289FA0008EAFB /* GoogleService-Info.plist in Resources */,
 				D07AD16B263490E2004F832F /* Assets.xcassets in Resources */,
 				D07AD169263490DA004F832F /* Main.storyboard in Resources */,
 			);
@@ -132,14 +221,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47D7B07F7316D8F0816A6BF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarsList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED6381A4126BE186D38BE524 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarsList/Pods-CarsList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarsList/Pods-CarsList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarsList/Pods-CarsList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D07AD15A263490DA004F832F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D07AD166263490DA004F832F /* ViewController.swift in Sources */,
+				D0678E9C264290EF0008EAFB /* SendEmail.swift in Sources */,
+				D0678E7726428D760008EAFB /* User.swift in Sources */,
+				D0678E7D26428E180008EAFB /* AuthenticationViewController.swift in Sources */,
+				D0678E99264290B40008EAFB /* SaveChangesSegue.swift in Sources */,
+				D0678E8026428E430008EAFB /* ListTableViewController.swift in Sources */,
 				D07AD162263490DA004F832F /* AppDelegate.swift in Sources */,
-				D07AD164263490DA004F832F /* SceneDelegate.swift in Sources */,
+				D0678E8C26428F8B0008EAFB /* PickerView.swift in Sources */,
+				D0678E8326428E670008EAFB /* AddEditTableViewController.swift in Sources */,
+				D0678E90264290130008EAFB /* UploadPhotoTapped.swift in Sources */,
+				D0678E8826428F530008EAFB /* CarCell.swift in Sources */,
+				D0678E6426428D600008EAFB /* Car.swift in Sources */,
+				D0678E95264290660008EAFB /* LoadImagesFromStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +423,14 @@
 		};
 		D07AD173263490E2004F832F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F16903612E4EB1F52FB377 /* Pods-CarsList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2VAU5M9JPP;
 				INFOPLIST_FILE = CarsList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +444,14 @@
 		};
 		D07AD174263490E2004F832F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21E87726607DF9410B488695 /* Pods-CarsList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2VAU5M9JPP;
 				INFOPLIST_FILE = CarsList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
